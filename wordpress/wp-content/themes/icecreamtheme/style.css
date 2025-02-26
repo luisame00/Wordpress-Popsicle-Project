@@ -1,0 +1,385 @@
+/*
+Theme Name: Bakery Theme 
+Author: Luisa Mejia
+Author URI: www.luisamejia.dev
+Description: Vintage ice cream theme with a nostalgic design, perfect for showcasing products in an organized, easy-to-navigate layout. Ideal for ice cream shops wanting a warm, inviting online presence.
+Tags: no tags
+Version: 1.0
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.line-up{
+    width: 100%;
+    height: 10px;
+}
+
+.blue-line, .line-blue-about{
+    background-color: #568A99;
+}
+
+.yellow-line, .line-yellow-about {
+    background-color: #E9A716;
+}
+
+.red-line, .line-red-about{
+    background-color: #C7481D;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+}
+.icon-img{
+    background: url(logo.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 15vw;
+}
+.icon-img a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    height: 100%;
+}
+nav ul{
+    display: flex;
+    gap: 8vw;
+    height: 100%;
+    width: 80vw;
+    justify-content: right;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: antiquewhite;
+}
+.banner{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.banner h1{
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    color: aliceblue;
+    padding-bottom: 40px;
+}
+
+.banner a{
+    text-decoration: none;
+    color: black;
+    background-color: #E9A716;
+    border: solid 2px #C7481D;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.banner a:hover{
+    color: aliceblue;
+    background-color: #C7481D;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.about-us{
+    padding: 16vh 15vw;
+    display: flex;
+    gap: 15vw;
+    width: 100%;
+    height: 80vh;
+}
+
+.right{
+    width: 80vw;
+    height: 40vh;
+}
+
+.img-about{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(159, 87, 35, 0.45) ;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.left h2{
+    font-family: "Updock", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+}
+
+.left h4{
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C7481D;
+    font-size: 22px;
+}
+
+.line-about{
+    width: 50px;
+    height: 3px;
+}
+
+.lines{
+    display: flex;
+    margin-top: 5px;
+}
+
+.left p{
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.cards-display{
+    width: 100%;
+    height: 80vh;
+    background-color: #F4DDB3;
+}
+
+.blog-img{
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.titles h2{
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: black
+}
+
+.blog-grid{
+    display: flex;
+    gap: 10vw;
+    padding: 0 10vw;
+}
+
+.card{
+    text-align: center;
+}
+
+.card h3{
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px 0px;
+}
+
+.card p{
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.card h6{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #C7481D;
+    padding: 20px 0px;
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: "Nanum Gothic", sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+footer h4{
+    font-weight: 200;
+    padding: 10px 0px;
+}
+
+.lines-cards{
+    width: 100%;
+    justify-content: center;
+    padding: 3vh 0px;
+}
+
+.line-cards{
+    width: 100px;
+    height: 5px;
+}
+
+.icon-img-footer{
+    background: url(logo.png);
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.full-article{
+    display: flex;
+    gap: 15vw;
+    padding: 5vh 15vw;
+    height: 70vh;
+    background-color: #F4F3E6;
+}
+
+.container-img{
+    width: 350px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.link-post{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: black;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+ }
+
+ .next-post-button, .prev-post-button{
+    margin-left: 20px;
+    text-decoration: none;
+    border: solid 1px black;
+    color: black;
+    background-color:  antiquewhite;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+ }
+
+.left h5{
+    font-family: "Nanum Gothic", sans-serif;
+    font-style: normal;
+    margin: 20px 0px;
+}
+
+.left h3{
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner-franchise{
+    background-color: rgba(255, 255, 255, 0.35);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-franchise h1{
+    padding-top: 25vh;
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    color: #568A99;
+    margin-bottom: 20px;
+}
+.banner-franchise a{
+    padding: 10px 20px;
+    background-color: #C7481D;
+    color: #F4DDB3;
+    text-decoration: none;
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+.about-franchise{
+    width: 100%;
+    height: 75vh;
+    padding: 10vh 15vw;
+    background-color: #F4DDB3;
+    display: flex;
+    gap: 10vw;
+}
+
+.franchise-about-img{
+    width: 350px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+.list-franchise li{
+    list-style: none;
+    font-family: "Nanum Gothic", sans-serif;
+    font-style: normal;
+    margin: 10px 0px;
+}
+
+.right-franchise h2{
+    font-family: "Updock", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+}
+
+.right-franchise h4{
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C7481D;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.list-franchise li i{
+    margin-right: 10px;
+}
+
